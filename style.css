@@ -356,6 +356,13 @@ nav ul li a {
     .footer .con1 p{
         display: none;
     }
+    .data .details .counts .PTICKET{
+        display: none;
+        
+    }
+    .data .details button{
+        margin-bottom: 30px;
+    }
 }
 @media only screen and (max-width: 1030px){
    
@@ -364,5 +371,9 @@ nav ul li a {
     }
     .data .poster{
         margin: auto;
+    }
+    .data .details .counts .PTICKET{
+        display: block;
+        
     }
 }
