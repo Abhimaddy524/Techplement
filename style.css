@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(240, 226, 228);
+   
+   
+}
+.header{
+    height: 100px;
+    
+    background-color: rgb(40, 140, 223);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;  
+                                                                          
+    
+}
+.header img{
+    width: 100px;
+    height: 100px;
+   
+    background-color: rgb(40, 140, 223);
+}
+.header h1{
+    background-color: rgb(40, 140, 223);
+    font-size:50px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.header button{
+    background-color: rgb(40, 140, 223);
+    
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+.header  .signup{
+    
+    width: 200px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    background: none;
+    border-radius: 20px;
+    
+}
+.header .login{
+    
+    width: 200px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bolder; 
+    background: none;
+    border-radius: 20px;
+}
+.header .aboutus{
+    
+    width: 200px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bolder; 
+    background: none; 
+    border-radius: 20px; 
+    margin-left: 600px;
+}
+
+.data .poster img{
+    width: 500px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.data {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.data .details p{
+ font-size: x-large;
+ 
+}
+.data .details{
+
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.data .details .counts{
+    display: flex;
+    gap: 10px;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.data .details .counts button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   font-weight: bolder;
+   border: 2px black solid;
+}
+.data .details .counts input{
+    font-weight:500px;
+    border: none;
+    width: 60px;
+    font-size: larger;
+    font-weight:bolder;
+}
+.data .details .bookticket{
+    width: 200px;
+    height: 100px;
+    border: 2px black solid;
+    font-size: x-large;
+    font-weight: 300;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.data .details .savelater{
+    width: 200px;
+    height: 100px;
+    border: 2px black solid;
+    font-size: x-large;
+    font-weight: 300;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+nav{
+    background-color: rgb(40, 140, 223);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(40, 140, 223);
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: rgb(40, 140, 223);
+    font-size: xx-large;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    background-color: rgb(40, 140, 223);
+    font-weight: bolder;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px;
+}
+.footer{
+    background-color:rgb(28, 28, 30);
+   
+    height: 300px;
+}
+.footer .con1{
+    background-color: rgb(28, 28, 30);
+    display: flex;
+    
+    
+}
+.footer .con1 i{
+    background-color:rgb(28, 28, 30);
+    color: #ddd;
+    margin-top: 50px;
+    margin-left: 300px;
+    font-size: xx-large;
+}
+.footer .con1 h3{
+    background-color:rgb(28, 28, 30);
+    color: #ddd;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+}
+.footer .con1 p{
+    background-color:rgb(28, 28, 30);
+    color: #ddd;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: larger;
+}
+.footer .con1 .button{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: rgb(236, 94, 113);
+    color: azure;
+    margin-left: 150px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+
+}
+.footer .con2{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    height: 100px;
+   background-color:rgb(102, 102, 104);
+}
+.footer .con2 div{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(102, 102, 104);
+}
+.footer .con2 div i{
+    background-color:rgb(102, 102, 104);
+    color: azure;
+    font-size:xx-large;
+    
+    margin: auto;
+}
+.footer .con2 div label{
+    margin: auto; 
+    background-color:rgb(102, 102, 104);
+    color: azure;
+}
+.footer .social{
+    background-color:rgb(28, 28, 30);
+    display: flex;
+    justify-content: space-around;
+   flex-direction: row;
+ 
+}
+.footer .social i{
+    background-color:rgb(28, 28, 30);
+    color: azure;
+    font-size: xx-large;
+    margin-top: 20px;
+   
+    
+}
+
+
+.data .details .bookticket:hover {
+    cursor: pointer;
+    background-color: chocolate;
+}
+.data .details .counts button:hover {
+    cursor: pointer;
+    
+}
+.data .details .savelater:hover {
+    cursor: pointer;
+    background-color:yellow;
+}
+.footer .con1 .button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.footer .social i:hover{
+    cursor: pointer;
+}
+.footer .con2 div i:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1600px){
+    nav ul {
+        display: none;
+        
+    }
+    
+    .hamburger {
+        display: flex;
+        
+        margin-top: 30px;
+    }
+    nav ul li {
+        background-color:#F9F9F9;
+        opacity: 0.6;
+    }
+    nav ul li a{
+        background-color:#F9F9F9; 
+        color: black;
+    }
+    
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #f9f9f9;
+        border-top: 1px solid #ddd;
+        padding: 10px 0;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .header h1{
+        display: none;
+    }
+    .header img{
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 1140px){
+    nav ul {
+        display: none;
+        
+    }
+    
+    .hamburger {
+        display: flex;
+        
+        margin-top: 30px;
+    }
+    nav ul li {
+        background-color:#F9F9F9;
+        opacity: 0.6;
+    }
+    nav ul li a{
+        background-color:#F9F9F9; 
+        color: black;
+    }
+    
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #f9f9f9;
+        border-top: 1px solid #ddd;
+        padding: 10px 0;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .header h1{
+        display: none;
+    }
+    .header img{
+        margin: auto;
+    }
+   
+    .footer .con1 p{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1030px){
+   
+    .data{
+        flex-direction: column;
+    }
+    .data .poster{
+        margin: auto;
+    }
+}
